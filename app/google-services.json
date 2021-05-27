@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "178849504943",
+    "project_id": "flast-e18e0",
+    "storage_bucket": "flast-e18e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178849504943:android:75b26ad5cc7ac925d8fe5a",
+        "android_client_info": {
+          "package_name": "com.example.flast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178849504943-gu5reaet5klrjuqtv3j3kfsu468i9693.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD5m4FXLV_7lOkV5dMb91-8XvmvUUbbYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178849504943-gu5reaet5klrjuqtv3j3kfsu468i9693.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

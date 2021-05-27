@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">flast</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Passowrd</string>
+    <string name="hint_repeat_password">Repeat password</string>
+    <string name="submit">Submit</string>
+    <string name="last_step">Last step</string>
+    <string name="username">Username</string>
+    <string name="full_name">Full name</string>
+    <string name="status">Status (who are you?)</string>
+    <string name="about_yourself">About yourself</string>
+
+    <string name="nav_camera">camera</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings">Settings</string>
+    <string name="log_out">Log-Out</string>
+</resources>

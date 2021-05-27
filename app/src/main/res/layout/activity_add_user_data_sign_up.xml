@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Activities.AddUserDataSignUpActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Last step"
+        android:layout_gravity="center"
+        android:id="@+id/last_step"
+        android:textColor="@color/aqua"
+        android:textSize="40sp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="130dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"
+        android:id="@+id/image_profile" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select photo"
+        android:layout_gravity="center"
+        android:id="@+id/select_photo"
+        android:textColor="@color/aqua"
+        android:textSize="18sp"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="215dp" />
+
+    <!--<EditText
+        android:id="@+id/username_edit_text_add_user_data"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />-->
+
+
+
+    <EditText
+        android:id="@+id/about_yourself_edit_text_add_user_data"
+        android:layout_width="380dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/about_yourself"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/button_submit_last_step"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="120dp"
+        android:backgroundTint="@color/aqua"
+        android:text="@string/submit"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

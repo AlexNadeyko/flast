@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".Activities.PostActivity">
+
+    <!--<com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_grey">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_grey">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:color="@color/selector_selected_icons"
+
+                    android:src="@drawable/ic_close" />
+
+                <ImageView
+                    android:id="@+id/done"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="15sp"
+                    android:src="@drawable/ic_done" />
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8sp"
+        android:layout_marginTop="25dp">
+
+        <ImageView
+            android:id="@+id/image_added"
+            android:layout_width="350sp"
+            android:layout_height="350sp"
+
+            android:layout_gravity="center"
+            android:scaleType="centerInside"/>
+
+        <!--<EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:inputType="textMultiLine"
+            android:gravity="start|top"
+            android:layout_marginTop="15sp"
+            android:hint="Description"
+            android:background="@drawable/edit_text_background"
+            android:padding="10dp"
+            android:maxLines="4" />-->
+
+        <com.hendraanggrian.appcompat.widget.SocialAutoCompleteTextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="75sp"
+            android:hint="Description"
+            android:maxLines="5"
+            app:socialFlags="hashtag|mention"
+            app:hashtagColor="@color/white"
+            android:layout_marginTop="15sp"
+            android:padding="10dp"
+            android:gravity="start|top"
+            android:background="@drawable/edit_text_background"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false">
+
+                <ImageView
+                    android:id="@+id/close"
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:layout_alignParentStart="true"
+                    android:color="@color/selector_selected_icons"
+                    android:layout_marginStart="50sp"
+                    android:src="@drawable/ic_close"
+                    android:background="@color/black"/>
+
+                <ImageView
+                    android:id="@+id/done"
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="50sp"
+                    android:background="@color/black"
+
+                    android:src="@drawable/ic_done" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
